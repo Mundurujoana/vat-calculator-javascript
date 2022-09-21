@@ -1,0 +1,41 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.label{
+    font-size: 20px;
+    color: #ff2200;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+h1{
+    /* text-align: center; */
+    font-weight: bold;
+    color: #42B585;
+    font-size: 50px;
+}
+
+.btn-primary{
+padding: 10px 20px;
+color: rgb(255, 255, 255);
+background-color: #000000;
+outline: none;
+border: none;
+font-size: 15px;
+}
+
+.footer{
+    font-weight: bold;
+    color: #000000;
+    font-size: 18px;
+}
+
+#result{
+padding-top: 15px;
+}

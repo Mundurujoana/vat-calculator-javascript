@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> VAT Calculator </title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="logo">Joana
+    </div>
+
+    <div class="main">
+        <div class="form">
+            <h1> VAT calculator </h1>
+            <form >
+                <label for="Amount" class="label"> Amount: </label> <br>
+                <input type="number" id="amount" name="Amount" placeholder="Ksh 0.00" > <br> <br>
+           
+                <label for="rate" class="label"> Rate: </label> <br>
+                <input type="number" id="rate" name="rate" placeholder="0" > <br> <br>
+               
+                <input type="button" id="calculator" onclick="calculate()" name="Calculate" class="btn-primary" value="calculate" >
+               </form>
+        </div>
+        <div id="result">
+            <!-- here you will see the results of the calculation -->
+        </div>
+   
+    </div>
+
+<div class="footer">
+<p> created by Joana! </p>
+</div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
